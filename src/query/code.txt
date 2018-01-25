@@ -1,0 +1,34 @@
+int act,box;
+float egg,dog;
+int air;
+struct abc{
+int aa,
+float bb,
+int cc
+};
+struct xyz{
+int aaa,
+float bbb,
+int ccc
+};
+struct pqr{
+int aba,
+float bcb,
+float cac
+};
+array float gun[5];
+array float fun[5];
+array int run[5];
+array float sun[10];
+def int f01(int f1,float f2)
+{
+
+};
+def float f02(float f3,float f4)
+{
+
+};
+def int f03(int f3,float f4)
+{
+
+};

@@ -1,0 +1,163 @@
+/////////////INPUT CODE////////////////////
+
+
+
+int act,box;
+float egg,dog;
+int air;
+struct abc{
+int aa,
+float bb,
+int cc
+};
+struct xyz{
+int aaa,
+float bbb,
+int ccc
+};
+struct pqr{
+int aba,
+float bcb,
+float cac
+};
+array float gun[5];
+array float fun[5];
+array int run[5];
+array float sun[10];
+def int f01(int f1,float f2)
+{
+
+};
+def float f02(float f3,float f4)
+{
+
+};
+def int f03(int f3,float f4)
+{
+
+};
+
+
+
+CODE 1
+
+/////////SAMPLE OUTPUT///////////////
+
+The following variables have Structural Equivalence
+
+     act  box  egg  dog  air  abc  xyz  pqr  gun  fun  run  sun  f01  f02  f03  
+
+act  yes  yes  no   no   yes  no   no   no   no   no   no   no   no   no   no   
+
+box       yes  no   no   yes  no   no   no   no   no   no   no   no   no   no   
+
+egg            yes  yes  no   no   no   no   no   no   no   no   no   no   no   
+
+dog                 yes  no   no   no   no   no   no   no   no   no   no   no   
+
+air                      yes  no   no   no   no   no   no   no   no   no   no   
+
+abc                           yes  yes  no   no   no   no   no   no   no   no   
+
+xyz                                yes  no   no   no   no   no   no   no   no   
+
+pqr                                     yes  no   no   no   no   no   no   no   
+
+gun                                          yes  yes  no   no   no   no   no   
+
+fun                                               yes  no   no   no   no   no   
+
+run                                                    yes  no   no   no   no   
+
+sun                                                         yes  no   no   no   
+
+f01                                                              yes  no   yes  
+
+f02                                                                   yes  no   
+
+f03                                                                        yes  
+
+The following variables have Name Equivalence
+
+act box
+
+egg dog
+
+The following variables have Internal Name Equivalence
+
+act box
+
+act air
+
+box air
+
+egg dog
+
+gun fun
+
+
+
+
+CODE 2
+/////////SAMPLE OUTPUT///////////////
+
+
+act int 0
+box int 0
+egg float 0
+dog float 0
+air int 0
+abc null 1
+xyz null 1
+pqr null 1
+gun float 3
+fun float 3
+run int 3
+sun float 3
+f01 null 2
+f02 null 2
+f03 null 2
+f01 f02
+15
+No, it is checked for structural equivalence and does not hold.
+
+
+act int 0
+box int 0
+egg float 0
+dog float 0
+air int 0
+abc null 1
+xyz null 1
+pqr null 1
+gun float 3
+fun float 3
+run int 3
+sun float 3
+f01 null 2
+f02 null 2
+f03 null 2
+act box
+15
+Yes, it is checked for name equivalence and holds.
+
+
+act int 0
+box int 0
+egg float 0
+dog float 0
+air int 0
+abc null 1
+xyz null 1
+pqr null 1
+gun float 3
+fun float 3
+run int 3
+sun float 3
+f01 null 2
+f02 null 2
+f03 null 2
+gun fun
+15
+Yes, it is checked for internal name equivalence and holds.
+

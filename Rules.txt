@@ -1,0 +1,61 @@
+-----------------------------------------------------------------------------
+
+		     C-LIKE LANGUAGE IMPLEMENTATION
+
+-----------------------------------------------------------------------------
+
+Name Equivalence:
+
+SAME NAME ONLY. 
+NEED TO BE DEFINED IN SAME LINE.
+Not valid for
+>	arrays
+
+-----------------------------------------------------------------------------
+
+Internal Name Equivalence:
+
+SAME NAME.
+NEED NOT BE DEFINED IN SAME LINE. 
+
+
+
+Valid for arrays if
+>	arrays, with same type 
+>	defined on any line 
+
+
+
+-----------------------------------------------------------------------------
+
+Structural Equivalence:
+
+take care of 
+
+>	structures
+		cannot have arrays as members.
+		members need to be in the same order.
+>	arrays
+		same size of dimension
+		same type
+>	functions
+		same arguments, in that order
+		same return type
+
+
+
+
+-----------------------------------------------------------------------------
+
+		  RULES FOR C-LIKE LANGUAGE IMPLEMENTED
+
+-----------------------------------------------------------------------------
+
+
+1. Structural Equivalence for structures.
+2. Internal Name Equivalence for arrays. 
+3. Name Equivalence for basic data types.
+4. Structural Equivalence for functions. 
+
+
+
